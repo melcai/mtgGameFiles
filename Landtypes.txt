@@ -1,1 +1,1 @@
-["Cave","Desert","Forest","Gate","Island","Lair","Locus","Mine","Mountain","Plains","Power-Plant","Sphere","Swamp","Tower","Urza's"]
+LandTypes:["Cave","Desert","Forest","Gate","Island","Lair","Locus","Mine","Mountain","Plains","Power-Plant","Sphere","Swamp","Tower","Urza's"]
