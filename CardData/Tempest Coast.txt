@@ -1,0 +1,16 @@
+name: Tempest Coast
+cost: 
+type: Land — Island Mountain
+color: colorless
+pt: false
+text: "
+Tempest Coast enters the battlefield tapped.
+Cycling £
+"
+image: Tempest Coast.png
+setsymbol: amonkhet rare
+abilities: 
+	As: ETB: tap( CARDNAME )_
+	Cycling: ( "
+
+Cycling £" ): Cost( £ )

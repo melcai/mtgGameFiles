@@ -1,0 +1,17 @@
+name: Brainstorm
+cost: ¼
+type: Instant
+color: blue
+pt: false
+text: "
+Draw three cards, then put two cards from your hand on top of your library in any order.
+"
+image: Brainstorm.png
+setsymbol: ice age common
+abilities: 
+	Spell:	Pay();
+		Priority;
+		you Draw( 3 );
+		DefineGroup( #c ): you ChooseCard( 2 , Zone( Hand( you ) ) );
+		Put( #c , Library( top ) );
+		you Rearrange( 2 , you , top )

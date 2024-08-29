@@ -1,0 +1,15 @@
+name: Frantic Inventory
+cost: ¢¼
+type: Instant
+color: blue
+pt: false
+text: "
+Draw a card, then draw cards equal to the number of cards named Frantic Inventory in your graveyard.
+"
+image: Frantic Inventory.png
+setsymbol: m21 common
+abilities: 
+	Spell:	Pay();
+		Priority;
+		you Draw( 1 );
+		you Draw( SelectionCount( Zone( Graveyard( you ) ) , Restrictions( Name( "Frantic Inventory" ) ) ) )

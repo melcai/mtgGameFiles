@@ -1,0 +1,9 @@
+name: Bayou
+cost: 
+type: Land — Swamp Forest
+color: colorless
+pt: false
+text: ""
+image: Bayou.png
+setsymbol: dual
+abilities: 

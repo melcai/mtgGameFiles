@@ -1,0 +1,9 @@
+name: Taiga
+cost: 
+type: Land — Mountain Forest
+color: colorless
+pt: false
+text: ""
+image: Taiga.png
+setsymbol: dual
+abilities: 

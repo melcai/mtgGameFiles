@@ -1,0 +1,20 @@
+name: Diminishing Returns
+cost: £¼¼
+type: Sorcery
+color: blue
+pt: false
+text: "
+Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards.
+"
+image: Diminishing Returns.png
+setsymbol: alliances rare
+abilities: 
+	Spell:	Pay();
+		Priority;
+		Put( Zone( Hand( both ) ) and Zone( Graveyard( both ) ) , Library( top ) );
+		Shuffle( Library( both ) );
+		Put( Zone( Library( you , top( 10 ) ) ) , Exile );
+		DefineNumber( #n ): you ChooseNumber( 0 - 7 );
+		DefineNumber( #m ): opponent ChooseNumber( 0 - 7 );
+		you Draw( #n );
+		opponent Draw( #m )

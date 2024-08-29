@@ -1,0 +1,17 @@
+name: Memory Lapse
+cost: ¢¼
+type: Instant
+color: blue
+pt: false
+text: "
+Counter target spell. If that spell is countered this way, put it on top of its owner’s library instead of into that player’s graveyard.
+"
+image: Memory Lapse.png
+setsymbol: homelands common
+abilities: 
+	Spell:	DefineGroup( #t ): you ChooseTargetCard( 1 , Zone( Stack ) );
+		If( emptyGroup( #t ) ): Return;
+		Pay();
+		Priority;
+		If( emptyGroup( #t ) ): Fizzle();
+		If( counterable( #t ) ): Put( #t , Library( top ) )

@@ -1,0 +1,9 @@
+name: Plateau
+cost: 
+type: Land — Mountain Plains
+color: colorless
+pt: false
+text: ""
+image: Plateau.png
+setsymbol: dual
+abilities: 

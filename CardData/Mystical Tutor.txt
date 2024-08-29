@@ -1,0 +1,16 @@
+name: Mystical Tutor
+cost: ¼
+type: Instant
+color: blue
+pt: false
+text: "
+Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.
+"
+image: Mystical Tutor.png
+setsymbol: mirage rare
+abilities: 
+	Spell:	Pay();
+		Priority;
+		DefineGroup( #c ): you ChooseCard( 1 , Zone( Library( you ) ) , Restrictions( Type( "Instant" ∨ "Sorcery" ) ) );
+		Shuffle( Library( you ) );
+		Put( #c , Library( top ) )

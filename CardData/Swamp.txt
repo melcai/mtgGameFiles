@@ -1,0 +1,9 @@
+name: Swamp
+cost: 
+type: Basic Land — Swamp
+color: colorless
+pt: false
+text: ""
+image: Swamp.png
+setsymbol: basic
+abilities: 

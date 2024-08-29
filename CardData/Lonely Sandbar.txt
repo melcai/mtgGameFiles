@@ -1,0 +1,20 @@
+name: Lonely Sandbar
+cost: 
+type: Land
+color: colorless
+pt: false
+text: "
+Lonely Sandbar enters the battlefield tapped.
+Ä: Add ¼.
+Cycling ¼
+"
+image: Lonely Sandbar.png
+setsymbol: onslaught common
+abilities: 
+	ActivatedManaability: ( "
+
+Ä: Add ¼." ): Cost( {T} ) -> AddMana( {u} )_
+	As: ETB: tap( CARDNAME )_
+	Cycling: ( "
+
+Cycling ¼" ): Cost( ¼ )

@@ -1,0 +1,20 @@
+name: Unsubstantiate
+cost: ¢¼
+type: Instant
+color: blue
+pt: false
+text: "
+Return target spell or creature to its owner’s hand.
+"
+image: Unsubstantiate.png
+setsymbol: eldritch moon uncommon
+abilities: 
+	Spell:	DefineGroup( #t1 ): Selection( Zone( Stack ) );
+		DefineGroup( #t2 ): Selection( Zone( Battlefield ) , Restrictions( Type( "Creature" ) ) );
+		DefineGroup( #t3 ): Selection( #t1 and #t2 );
+		DefineGroup( #t4 ): you ChooseTargetCard( 1 , #t3 );
+		If( emptyGroup( #t4 ) ): Return;
+		Pay();
+		Priority;
+		If( emptyGroup( #t4 ) ): Fizzle();
+		Put( #t4 , Hand )

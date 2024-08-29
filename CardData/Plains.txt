@@ -1,0 +1,9 @@
+name: Plains
+cost: 
+type: Basic Land — Plains
+color: colorless
+pt: false
+text: ""
+image: Plains.png
+setsymbol: basic
+abilities: 

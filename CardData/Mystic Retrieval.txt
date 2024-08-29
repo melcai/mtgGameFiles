@@ -1,0 +1,19 @@
+name: Mystic Retrieval
+cost: ¤¼
+type: Sorcery
+color: blue
+pt: false
+text: "
+Return target instant or sorcery card from your graveyard to your hand.
+
+Flashback £¾
+"
+image: Mystic Retrieval.png
+setsymbol: dark ascension uncommon
+abilities: 
+	Spell:	DefineGroup( #t ): you ChooseTargetCard( 1 , Zone( Graveyard( you ) ) , Restrictions( Type( "Instant" ∨ "Sorcery" ) ) );
+		If( emptyGroup( #t ) ): Return;
+		Pay();
+		Priority;
+		Put( #t , Hand )_
+	Flashback: £¾

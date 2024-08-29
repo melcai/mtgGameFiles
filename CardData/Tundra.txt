@@ -1,0 +1,9 @@
+name: Tundra
+cost: 
+type: Land — Plains Island
+color: colorless
+pt: false
+text: ""
+image: Tundra.png
+setsymbol: dual
+abilities: 

@@ -1,0 +1,9 @@
+name: Island
+cost: 
+type: Basic Land — Island
+color: colorless
+pt: false
+text: ""
+image: Island.png
+setsymbol: basic
+abilities: 

@@ -1,0 +1,9 @@
+name: Mountain
+cost: 
+type: Basic Land — Mountain
+color: colorless
+pt: false
+text: ""
+image: Mountain.png
+setsymbol: basic
+abilities: 

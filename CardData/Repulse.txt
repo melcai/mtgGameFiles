@@ -1,0 +1,19 @@
+name: Repulse
+cost: £¼
+type: Instant
+color: blue
+pt: false
+text: "
+Return target creature to its owner’s hand.
+Draw a card.
+"
+image: Repulse.png
+setsymbol: invasion common
+abilities: 
+	Spell:	DefineGroup( #t ): you ChooseTargetCard( 1 , Zone( Battlefield ) , Restrictions( Type( "Creature" ) ) );
+		If( emptyGroup( #t ) ): Return;
+		Pay();
+		Priority;
+		If( emptyGroup( #t ) ): Fizzle();
+		Put( #t , Hand );
+		you Draw( 1 )

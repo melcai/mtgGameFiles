@@ -1,0 +1,9 @@
+name: Savannah
+cost: 
+type: Land — Forest Plains
+color: colorless
+pt: false
+text: ""
+image: Savannah.png
+setsymbol: dual
+abilities: 

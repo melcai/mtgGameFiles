@@ -1,0 +1,9 @@
+name: Tropical Island
+cost: 
+type: Land — Forest Island
+color: colorless
+pt: false
+text: ""
+image: Tropical Island.png
+setsymbol: dual
+abilities: 

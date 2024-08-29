@@ -1,0 +1,21 @@
+name: Predict
+cost: ¢¼
+type: Instant
+color: blue
+pt: false
+text: "
+Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you draw two cards. Otherwise, you draw a card.
+"
+image: Predict.png
+setsymbol: odyssey uncommon
+abilities: 
+	Spell:	DefinePlayer( #t ): you ChoosePlayer;
+		Pay();
+		Priority;
+		DefineString( #s ): you ChooseCardName;
+		DefineGroup( #c1 ): Selection( Zone( Graveyard( you ) ) , Restrictions( Name( #s ) ) );
+		#t Mill( 1 );
+		DefineGroup( #c2 ): Selection( Zone( Graveyard( you ) ) , Restrictions( Name( #s ) ) );
+		DefineGroup( #c3 ): Selection( #c2 minus #c1 );
+		If( not( emptyGroup( #c3 ) ) ): you Draw( 2 );
+		If( emptyGroup( #c3 ) ): you Draw( 1 )

@@ -1,0 +1,9 @@
+name: Volcanic Island
+cost: 
+type: Land — Island Mountain
+color: colorless
+pt: false
+text: ""
+image: Volcanic Island.png
+setsymbol: dual
+abilities: 

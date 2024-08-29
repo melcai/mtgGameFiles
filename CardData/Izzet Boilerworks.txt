@@ -1,0 +1,25 @@
+name: Izzet Boilerworks
+cost: 
+type: Land
+color: colorless
+pt: false
+text: "
+Izzet Boilerworks enters the battlefield tapped.
+When Izzet Boilerworks enters the battlefield, return a land you control to its owner’s hand.
+Ä: Add ¼¾.
+"
+image: Izzet Boilerworks.png
+setsymbol: guildpact uncommon
+abilities: 
+	ActivatedManaability: ( "
+
+Ä: Add ¼¾." ): Cost( {T} ) -> AddMana( {u} );
+		AddMana( {r} )_
+	As: ETB: tap( CARDNAME )_
+	Trigerred: ETB: ( "
+
+When Izzet Boilerworks enters the battlefield, return a land you control to its owner’s hand." ): DefineGroup( #c ): you ChooseTargetCard( 1 , Zone( Battlefield ) , Restrictions( Type( "Land" ) , Controller( you ) ) +CARDNAME );
+		If( emptyGroup( #c ) ): Fizzle();
+		Priority;
+		If( emptyGroup( #c ) ): Fizzle();
+		Put( #c , Hand )

@@ -1,0 +1,9 @@
+name: Forest
+cost: 
+type: Basic Land — Forest
+color: colorless
+pt: false
+text: ""
+image: Forest.png
+setsymbol: basic
+abilities: 

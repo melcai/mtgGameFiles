@@ -1,0 +1,9 @@
+name: Badlands
+cost: 
+type: Land — Swamp Mountain
+color: colorless
+pt: false
+text: ""
+image: Badlands.png
+setsymbol: dual
+abilities: 

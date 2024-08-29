@@ -1,0 +1,16 @@
+name: Chart a Course
+cost: ¢¼
+type: Sorcery
+color: blue
+pt: false
+text: "
+Draw two cards. Then discard a card unless you attacked this turn.
+"
+image: Chart a Course.png
+setsymbol: ixalan uncommon
+abilities: 
+	Spell:	Pay();
+		Priority;
+		you Draw( 2 );
+		If( not( you attacked ) ): DefineGroup( #c ): you ChooseCard( 1 , Zone( Hand( you ) ) );
+		Put( #c , Graveyard )

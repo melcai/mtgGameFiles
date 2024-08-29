@@ -1,0 +1,19 @@
+name: Mystic Sanctuary
+cost: 
+type: Land — Island
+color: colorless
+pt: false
+text: "Mystic Sanctuary enters the battlefield tapped unless you control three or more other Islands.
+When Mystic Sanctuary enters the battlefield untapped, you may put target instant or sorcery card from your graveyard on top of your library.
+"
+image: Mystic Sanctuary.png
+setsymbol: throne of eldraine common
+abilities: 
+	Trigerred: ETB: ( "
+When Mystic Sanctuary enters the battlefield untapped, you may put target instant or sorcery card from your graveyard on top of your library." ): If( tapped( CARDNAME ) ): Fizzle();
+		DefineGroup( #c ): you ChooseTargetCard( 1 , Zone( Graveyard( you ) ) , Restrictions( Type( "Instant" ∨ "Sorcery" ) ) );
+		If( emptyGroup( #c ) ): Fizzle();
+		Priority;
+		If( emptyGroup( #c ) ): Fizzle();
+		If( you may ): Put( #c , Library( top ) )_
+	As: ETB: If( not( you control( 3+ , Type( "Island" ) ) ) ): tap( CARDNAME )

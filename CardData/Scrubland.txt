@@ -1,0 +1,9 @@
+name: Scrubland
+cost: 
+type: Land — Plains Swamp
+color: colorless
+pt: false
+text: ""
+image: Scrubland.png
+setsymbol: dual
+abilities: 

@@ -1,0 +1,25 @@
+name: Vision Charm
+cost: ¼
+type: Instant
+color: blue
+pt: false
+text: "Choose one -
+1 - Target player mills four cards.
+2 - Choose a land type and a basic land type. Each land of the first chosen type becomes the second chosen type until end of turn.
+3 - Target artifact phases out.
+"
+image: Vision Charm.png
+setsymbol: visions common
+abilities: 
+	Spell:	DefineNumber( #m ): you ChooseNumber( 1 - 3 );
+		If( Number( #m = 1 ) ): DefinePlayer( #t1 ): you ChoosePlayer;
+		If( Number( #m = 3 ) ): DefineGroup( #t2 ): you ChooseTargetCard( 1 , Zone( Battlefield ) , Restrictions( Type( "Artifact" ) ) );
+		If( Number( #m = 3 ) ): If( emptyGroup( #t2 ) ): Return;
+		Pay();
+		Priority;
+		If( Number( #m = 1 ) ): #t1 Mill( 4 );
+		If( Number( #m = 2 ) ): DefineString( #s1 ): you ChooseLandtype;
+		If( Number( #m = 2 ) ): DefineString( #s2 ): you ChooseBasicLandtype;
+		DefineGroup( #l ): Selection( Zone( Battlefield ) , Restrictions( Type( #s1 ) ) );
+		If( Number( #m = 2 ) ): SetSubtype( #l , #s2 , eot );
+		If( Number( #m = 3 ) ): PhaseOut( #t2 )

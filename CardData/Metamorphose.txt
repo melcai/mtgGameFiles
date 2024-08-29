@@ -1,0 +1,19 @@
+name: Metamorphose
+cost: ¢¼
+type: Instant
+color: blue
+pt: false
+text: "
+Put target permanent an opponent controls on top of its owner’s library. That opponent may put an artifact, creature, enchantment, or land card from their hand onto the battlefield.
+"
+image: Metamorphose.png
+setsymbol: scourge uncommon
+abilities: 
+	Spell:	DefineGroup( #t ): you ChooseTargetCard( 1 , Zone( Battlefield ) , Restrictions( Controller( opponent ) ) );
+		If( emptyGroup( #t ) ): Return;
+		Pay();
+		Priority;
+		If( emptyGroup( #t ) ): Fizzle();
+		Put( #t , Library( top ) );
+		DefineGroup( #p ): opponent ChooseTargetCard( 1- , Zone( Hand( opponent ) ) , Restrictions( Type( "Artifact" ∨ "Creature" ∨ "Land" ) ) );
+		Put( #p , Battlefield )

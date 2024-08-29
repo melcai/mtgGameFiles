@@ -1,0 +1,21 @@
+name: Magical Hack
+cost: ¼
+type: Instant
+color: blue
+pt: false
+text: "
+Change the text of target spell or permanent by replacing all instances of one basic land type with another.
+"
+image: Magical Hack.png
+setsymbol: alpha rare
+abilities: 
+	Spell:	DefineGroup( #t ): you ChooseTargetCard( 1 , Zone( Stack ∨ Battlefield ) );
+		If( emptyGroup( #t ) ): Return;
+		Pay();
+		Priority;
+		If( emptyGroup( #t ) ): Fizzle();
+		DefineString( #s1 ): you ChooseBasicLandtype;
+		DefineString( #s2 ): you ChooseBasicLandtype;
+		ReplaceAll( #t , type , #s1 , #s2 , indefinitely );
+		ReplaceAll( #t , text , #s1 , #s2 , indefinitely );
+		ReplaceAll( #t , abilities , #s1 , #s2 , indefinitely )

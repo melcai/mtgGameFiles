@@ -1,0 +1,17 @@
+name: Thundering Falls
+cost: 
+type: Land — Island Mountain
+color: colorless
+pt: false
+text: "
+Thundering Falls enters the battlefield tapped.
+When Thundering Falls enters the battlefield, surveil 1.
+"
+image: Thundering Falls.png
+setsymbol: murders at karlov manor rare
+abilities: 
+	Trigerred: ETB: ( "
+
+When Thundering Falls enters the battlefield, surveil 1." ): Priority;
+		you Surveil( 1 )_
+	As: ETB: tap( CARDNAME )

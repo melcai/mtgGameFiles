@@ -1,0 +1,18 @@
+name: Narset's Reversal
+cost: ¼¼
+type: Instant
+color: blue
+pt: false
+text: "
+Copy target instant or sorcery spell, then return it to its owner’s hand. You may choose new targets for the copy.
+"
+image: Narset's Reversal.png
+setsymbol: war of the spark rare
+abilities: 
+	Spell:	DefineGroup( #t ): you ChooseTargetCard( 1 , Zone( Stack ) , Restrictions( Type( "Instant" ∨ "Sorcery" ) ) );
+		If( emptyGroup( #t ) ): Return;
+		Pay();
+		Priority;
+		If( emptyGroup( #t ) ): Fizzle();
+		CopyNewTargets( #t );
+		If( counterable( #t ) ): Put( #t , Hand )
