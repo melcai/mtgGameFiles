@@ -14,5 +14,4 @@ abilities:
 
 When Thundering Falls enters the battlefield, surveil 1." ): Priority;
 		you Surveil( 1 )_
-	As: ETB: tap( CARDNAME )_
-	
+	As: ETB: tap( CARDNAME )
