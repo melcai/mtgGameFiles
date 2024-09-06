@@ -4,7 +4,7 @@ type: Land
 color: colorless
 pt: false
 text: "
-Lonely Sandbar enters the battlefield tapped.
+CARDNAME enters the battlefield tapped.
 Ä: Add ¼.
 Cycling ¼
 "
