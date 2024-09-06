@@ -4,9 +4,9 @@ type: Creature — Fish
 color: blue
 pt: 4/1
 text: "
-Dandan can't attack unless defending player controls an Island.
+CARDNAME can't attack unless defending player controls an Island.
 
-When you control no Islands, sacrifice Dandan."
+When you control no Islands, sacrifice CARDNAME."
 image: Dandan.png
 setsymbol: arabian nights common
 abilities: 
@@ -14,5 +14,5 @@ abilities:
 		Priority_
 	attackRestriction: not( opponent control( Type( "Island" ) ) )_
 	stateTrigger: ( "
-When you control no Islands, sacrifice Dandan." ): not( you control( 1+ , Type( "Island" ) ) ): Priority;
+When you control no Islands, sacrifice CARDNAME." ): not( you control( 1+ , Type( "Island" ) ) ): Priority;
 		If( not( you control( 1+ , Type( "Island" ) ) ) ): Put( CARDNAME , Graveyard )
