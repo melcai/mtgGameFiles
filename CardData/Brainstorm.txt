@@ -3,9 +3,7 @@ cost: ¼
 type: Instant
 color: blue
 pt: false
-text: "
-Draw three cards, then put two cards from your hand on top of your library in any order.
-"
+text: "Draw three cards, then put two cards from your hand on top of your library in any order."
 image: Brainstorm.png
 setsymbol: ice age common
 abilities: 
