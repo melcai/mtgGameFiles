@@ -3,11 +3,13 @@ cost: ¼
 type: Instant
 color: blue
 pt: false
-text: "Draw three cards, then put two cards from your hand on top of your library in any order.
+text: "
+Draw three cards, then put two cards from your hand on top of your library in any order.
 
 {#2}“I reeled from the blow, and then suddenly, I knew exactly what to do. Within moments, victory was mine.”
 —Gustha Ebbasdotter,
-Kjeldoran Royal Mage"
+Kjeldoran Royal Mage
+"
 image: Brainstorm.png
 setsymbol: ice age common
 abilities: 
