@@ -5,6 +5,8 @@ color: blue
 pt: false
 text: "
 Draw two cards. Then discard a card unless you attacked this turn.
+
+{#2}As the River Heralds began to decipher the ancient map, they were staggered by the vastness of the world-within-the-world that it revealed.
 "
 image: Chart a Course.png
 setsymbol: ixalan uncommon
