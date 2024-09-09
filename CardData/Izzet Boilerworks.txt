@@ -6,7 +6,7 @@ pt: false
 text: "
 CARDNAME enters the battlefield tapped.
 When CARDNAME enters the battlefield, return a land you control to its owner’s hand.
-Ä: Add ¼¾.
+{#3}I{#1}: Add {#3}BD{#1}.
 "
 image: Izzet Boilerworks.png
 setsymbol: guildpact uncommon
