@@ -5,8 +5,8 @@ color: colorless
 pt: false
 text: "
 CARDNAME enters the battlefield tapped.
-Ä: Add ¼.
-Cycling ¼
+{#3}I{#1}: Add {#3}B{#1}.
+Cycling {#3}B{#1}
 "
 image: Lonely Sandbar.png
 setsymbol: onslaught common
