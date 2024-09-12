@@ -5,6 +5,8 @@ color: blue
 pt: false
 text: "
 Put target permanent an opponent controls on top of its owner’s library. That opponent may put an artifact, creature, enchantment, or land card from their hand onto the battlefield.
+
+{#2}If it’s not one thing, it’s another.
 "
 image: Metamorphose.png
 setsymbol: scourge uncommon
