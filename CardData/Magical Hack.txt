@@ -4,7 +4,7 @@ type: Instant
 color: blue
 pt: false
 text: "
-Change the text of target spell or permanent by replacing all instances of one basic land type with another.
+Change the text of target spell or permanent by replacing all instances of one basic land type with another.{#2} (For example, you may change “swampwalk” to “plainswalk.” This effect lasts indefinitely.)
 "
 image: Magical Hack.png
 setsymbol: alpha rare
