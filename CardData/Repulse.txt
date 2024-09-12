@@ -7,7 +7,7 @@ text: "
 Return target creature to its owner’s hand.
 Draw a card.
 
-“You aren’t invited.”
+{#2}“You aren’t invited.”
 "
 image: Repulse.png
 setsymbol: invasion common
