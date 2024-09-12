@@ -3,7 +3,7 @@ cost:
 type: Land
 color: colorless
 pt: false
-text: "
+text: "                               
 CARDNAME enters the battlefield tapped.
 When CARDNAME enters the battlefield, return a land you control to its owner’s hand.
 {#3}I{#1}: Add {#3}BD{#1}.
