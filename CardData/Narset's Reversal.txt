@@ -5,6 +5,9 @@ color: blue
 pt: false
 text: "
 Copy target instant or sorcery spell, then return it to its owner’s hand. You may choose new targets for the copy.
+
+{#2}“In the disarray of battle, an enemy’s attack may be your most convenient weapon.”
+—Narset
 "
 image: Narset's Reversal.png
 setsymbol: war of the spark rare
