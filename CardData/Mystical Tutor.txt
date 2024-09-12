@@ -5,6 +5,8 @@ color: blue
 pt: false
 text: "
 Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.
+
+{#2}The student searches the world for meaning. The master finds worlds of meaning in the search.
 "
 image: Mystical Tutor.png
 setsymbol: mirage rare
