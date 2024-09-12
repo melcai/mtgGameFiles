@@ -5,7 +5,7 @@ color: blue
 pt: false
 text: "
 Return target creature to its owner’s hand.
-Draw a card.
+Draw a card.                               
 
 {#2}“You aren’t invited.”
 "
