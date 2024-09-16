@@ -3,11 +3,9 @@ cost:
 type: Land
 color: colorless
 pt: false
-text: "
-CARDNAME enters the battlefield tapped.
+text: "CARDNAME enters the battlefield tapped.
 When CARDNAME enters the battlefield, look at the top three cards of your library, then put them back in any order.
-{#3}I{#1}: Add {#3}B{#1}.
-"
+{#SymbolsMain}I{#MPlMain}: Add {#SymbolsMain}B{#MPlMain}."
 image: Halimar Depths.png
 setsymbol: worldwake common
 abilities: 
