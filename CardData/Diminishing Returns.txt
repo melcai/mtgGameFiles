@@ -3,9 +3,7 @@ cost: £¼¼
 type: Sorcery
 color: blue
 pt: false
-text: "
-Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards.
-"
+text: "Each player shuffles their hand and graveyard into their library. You exile the top ten cards of your library. Then each player draws up to seven cards."
 image: Diminishing Returns.png
 setsymbol: alliances rare
 abilities: 
