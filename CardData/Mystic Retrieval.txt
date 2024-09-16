@@ -3,11 +3,9 @@ cost: ¤¼
 type: Sorcery
 color: blue
 pt: false
-text: "
-Return target instant or sorcery card from your graveyard to your hand.
+text: "Return target instant or sorcery card from your graveyard to your hand.
 
-Flashback {#3}2D{#2} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
-"
+Flashback {#SymbolsMain}2D{#MPlItalic} (You may cast this card from your graveyard for its flashback cost. Then exile it.)"
 image: Mystic Retrieval.png
 setsymbol: dark ascension uncommon
 abilities: 
