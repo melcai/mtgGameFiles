@@ -3,9 +3,7 @@ cost: ¢¼
 type: Instant
 color: blue
 pt: false
-text: "
-Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you draw two cards. Otherwise, you draw a card.
-"
+text: "Choose a card name, then target player mills a card. If a card with the chosen name was milled this way, you draw two cards. Otherwise, you draw a card."
 image: Predict.png
 setsymbol: odyssey uncommon
 abilities: 
