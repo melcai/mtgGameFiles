@@ -3,11 +3,9 @@ cost: ¢¼
 type: Instant
 color: blue
 pt: false
-text: "
-Draw a card, then draw cards equal to the number of cards named Frantic Inventory in your graveyard.
+text: "Draw a card, then draw cards equal to the number of cards named Frantic Inventory in your graveyard.
 
-{#2}“Another village, another angry mob. Why do I even bother unpacking?”
-"
+{#MPlItalic}“Another village, another angry mob. Why do I even bother unpacking?”"
 image: Frantic Inventory.png
 setsymbol: m21 common
 abilities: 
