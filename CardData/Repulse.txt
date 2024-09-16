@@ -3,12 +3,10 @@ cost: £¼
 type: Instant
 color: blue
 pt: false
-text: "
-Return target creature to its owner’s hand.
-Draw a card.                               
+text: "Return target creature to its owner’s hand.
+Draw a card.
 
-{#2}“You aren’t invited.”
-"
+{#MPlItalic}“You aren’t invited.”"
 image: Repulse.png
 setsymbol: invasion common
 abilities: 
