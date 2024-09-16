@@ -3,11 +3,8 @@ cost:
 type: Land — Island Mountain
 color: colorless
 pt: false
-text: "
-{#2}({#3}I{#2}: Add {#3}B{#2} or {#3}D{#2}.)
-CARDNAME enters the battlefield tapped.
-When CARDNAME enters the battlefield, surveil 1.{#2}(Look at the top card of your library. You may put it into your graveyard.)
-"
+text: "CARDNAME enters the battlefield tapped.
+When CARDNAME enters the battlefield, surveil 1.{#MPlItalic}(Look at the top card of your library. You may put it into your graveyard.)"
 image: Thundering Falls.png
 setsymbol: murders at karlov manor rare
 abilities: 
