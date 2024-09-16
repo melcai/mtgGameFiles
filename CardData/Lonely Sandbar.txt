@@ -3,11 +3,9 @@ cost:
 type: Land
 color: colorless
 pt: false
-text: "
-CARDNAME enters the battlefield tapped.
-{#3}I{#1}: Add {#3}B{#1}.
-Cycling {#3}B{#2} ({#3}B{#2}, Discard this card: Draw a card.)
-"
+text: "CARDNAME enters the battlefield tapped.
+{#SymbolsMain}I{#MPlMain}: Add {#SymbolsMain}B{#MPlMain}.
+Cycling {#SymbolsMain}B{#MPlItalic} ({#SymbolsMain}B{#MPlItalic}, Discard this card: Draw a card.)"
 image: Lonely Sandbar.png
 setsymbol: onslaught common
 abilities: 
