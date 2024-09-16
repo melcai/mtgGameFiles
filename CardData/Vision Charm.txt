@@ -6,8 +6,7 @@ pt: false
 text: "Choose one —
 • (1) Target player mills four cards.
 • (2) Choose a land type and a basic land type. Each land of the first chosen type becomes the second chosen type until end of turn.
-• (3) Target artifact phases out.{#2} (While it’s phased out, it’s treated as though it doesn’t exist. It phases in before its controller untaps during their next untap step.)
-"
+• (3) Target artifact phases out.{#2} (While it’s phased out, it’s treated as though it doesn’t exist. It phases in before its controller untaps during their next untap step.)"
 image: Vision Charm.png
 setsymbol: visions common
 abilities: 
