@@ -3,11 +3,8 @@ cost:
 type: Land — Island Mountain
 color: colorless
 pt: false
-text: "
-{#2}({#3}I{#2}: Add {#3}B{#2} or {#3}D{#2}.)
-{#1}CARDNAME enters the battlefield tapped.
-Cycling {#3}2{#2} ({#3}2{#2}, Discard this card: Draw a card.)
-"
+text: "CARDNAME enters the battlefield tapped.
+Cycling {#SymbolsMain}2{#MPlItalic} ({#SymbolsMain}2{#MPlItalic}, Discard this card: Draw a card.)"
 image: Tempest Coast.png
 setsymbol: amonkhet rare
 abilities: 
