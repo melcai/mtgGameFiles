@@ -3,8 +3,7 @@ cost:
 type: Land — Island
 color: colorless
 pt: false
-text: "{#2}({#3}I{#2}: Add {#3}B{#2}.)
-{#1}CARDNAME enters the battlefield tapped unless you control three or more other Islands.
+text: "CARDNAME enters the battlefield tapped unless you control three or more other Islands.
 When CARDNAME enters the battlefield untapped, you may put target instant or sorcery card from your graveyard on top of your library."
 image: Mystic Sanctuary.png
 setsymbol: throne of eldraine common
