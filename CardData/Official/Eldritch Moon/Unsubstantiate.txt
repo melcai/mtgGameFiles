@@ -6,7 +6,7 @@ pt: false
 text: "Return target spell or creature to its owner’s hand.
 
 {#MPlItalic}“Nicely done, Jace. You always were good at disappearing acts.”
-—Liliana Vess"
+{#MPlItalicExp1}3{#MPlItalic}Liliana Vess"
 image: Unsubstantiate.png
 setsymbol: eldritch moon uncommon
 abilities: 
