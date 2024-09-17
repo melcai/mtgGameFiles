@@ -3,10 +3,10 @@ cost: ¼
 type: Instant
 color: blue
 pt: false
-text: "Choose one —
-• (1) Target player mills four cards.
-• (2) Choose a land type and a basic land type. Each land of the first chosen type becomes the second chosen type until end of turn.
-• (3) Target artifact phases out.{#MPlItalic} (While it’s phased out, it’s treated as though it doesn’t exist. It phases in before its controller untaps during their next untap step.)"
+text: "Choose one {#MPlExp1}3{#MPlMain}
+{#MPlExp1};{#MPlMain} (1) Target player mills four cards.
+{#MPlExp1};{#MPlMain} (2) Choose a land type and a basic land type. Each land of the first chosen type becomes the second chosen type until end of turn.
+{#MPlExp1};{#MPlMain} (3) Target artifact phases out.{#MPlItalic} (While it’s phased out, it’s treated as though it doesn’t exist. It phases in before its controller untaps during their next untap step.)"
 image: Vision Charm.png
 setsymbol: visions common
 abilities: 
