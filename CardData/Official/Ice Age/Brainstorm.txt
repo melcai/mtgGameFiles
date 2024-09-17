@@ -6,7 +6,7 @@ pt: false
 text: "Draw three cards, then put two cards from your hand on top of your library in any order.
 
 {#MPlItalic}“I reeled from the blow, and then suddenly, I knew exactly what to do. Within moments, victory was mine.”
-—Gustha Ebbasdotter,
+{#MPlItalicExp1}3{#MPlItalic}Gustha Ebbasdotter,
 Kjeldoran Royal Mage"
 image: Brainstorm.png
 setsymbol: ice age common
