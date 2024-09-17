@@ -7,7 +7,7 @@ text: "CARDNAME can't attack unless defending player controls an Island.
 When you control no Islands, sacrifice CARDNAME.
 
 {#MPlItalic}“Catch good today. Start replacing crew tomorrow.”
-—Faysal al-Mousa, fisher captain, log"
+{#MPlItalicExp1}3{#MPlItalic}Faysal al-Mousa, fisher captain, log"
 image: Dandân.png
 setsymbol: arabian nights common
 abilities: 
