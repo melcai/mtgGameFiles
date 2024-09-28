@@ -3,9 +3,7 @@ cost: ¢¼
 type: Sorcery
 color: blue
 pt: false
-text: "Draw two cards. Then discard a card unless you attacked this turn.
-
-{#MPlItalic}As the River Heralds began to decipher the ancient map, they were staggered by the vastness of the world-within-the-world that it revealed."
+text: "Draw two cards. Then discard a card unless you attacked this turn."
 image: Chart a Course.png
 setsymbol: ixalan uncommon
 abilities: 
