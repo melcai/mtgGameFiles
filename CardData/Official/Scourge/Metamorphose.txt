@@ -3,9 +3,7 @@ cost: ¢¼
 type: Instant
 color: blue
 pt: false
-text: "Put target permanent an opponent controls on top of its owner’s library. That opponent may put an artifact, creature, enchantment, or land card from their hand onto the battlefield.
-
-{#MPlItalic}If it’s not one thing, it’s another."
+text: "Put target permanent an opponent controls on top of its owner’s library. That opponent may put an artifact, creature, enchantment, or land card from their hand onto the battlefield."
 image: Metamorphose.png
 setsymbol: scourge uncommon
 abilities: 
