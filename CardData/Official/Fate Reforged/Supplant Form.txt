@@ -3,10 +3,7 @@ cost: ¥¼¼
 type: Instant
 color: blue
 pt: false
-text: "Return target creature to its owner’s hand. You create a token that’s a copy of that creature.
-
-{#MPlItalic}“Ice can be shaped to any form, even the whisper of a memory.”
-{#MPlItalicExp1}3{#MPlItalic}Mytha, Temur shaman"
+text: "Return target creature to its owner’s hand. You create a token that’s a copy of that creature."
 image: Supplant Form.png
 setsymbol: fate reforged rare
 abilities: 
