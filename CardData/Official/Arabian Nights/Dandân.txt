@@ -4,10 +4,7 @@ type: Creature — Fish
 color: blue
 pt: 4/1
 text: "CARDNAME can't attack unless defending player controls an Island.
-When you control no Islands, sacrifice CARDNAME.
-
-{#MPlItalic}“Catch good today. Start replacing crew tomorrow.”
-{#MPlItalicExp1}3{#MPlItalic}Faysal al-Mousa, fisher captain, log"
+When you control no Islands, sacrifice CARDNAME."
 image: Dandân.png
 setsymbol: arabian nights common
 abilities: 
