@@ -3,10 +3,7 @@ cost: ¢¼
 type: Instant
 color: blue
 pt: false
-text: "Counter target spell. If that spell is countered this way, put it on top of its owner’s library instead of into that player’s graveyard.
-
-{#MPlItalic}“Where do our forgotten thoughts go? I knew once, but I can’t remember.”
-{#MPlItalicExp1}3{#MPlItalic}Director Taiva, journal entry"
+text: "Counter target spell. If that spell is countered this way, put it on top of its owner’s library instead of into that player’s graveyard."
 image: Memory Lapse.png
 setsymbol: homelands common
 abilities: 
