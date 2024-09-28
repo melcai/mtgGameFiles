@@ -3,9 +3,7 @@ cost: ¼
 type: Instant
 color: blue
 pt: false
-text: "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top.
-
-{#MPlItalic}The student searches the world for meaning. The master finds worlds of meaning in the search."
+text: "Search your library for an instant or sorcery card, reveal it, then shuffle and put that card on top."
 image: Mystical Tutor.png
 setsymbol: mirage rare
 abilities: 
