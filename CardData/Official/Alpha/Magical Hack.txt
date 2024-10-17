@@ -3,7 +3,7 @@ cost: ¼
 type: Instant
 color: blue
 pt: false
-text: "Change the text of target spell or permanent by replacing all instances of one basic land type with another.{#MPlItalic} (For example, you may change “swampwalk” to “plainswalk.” This effect lasts indefinitely.)"
+text: "Change the text of target spell or permanent by replacing all instances of one basic land type with another.[i] (For example, you may change “swampwalk” to “plainswalk.” This effect lasts indefinitely.)[/i]"
 image: Magical Hack.png
 setsymbol: alpha rare
 abilities: 
