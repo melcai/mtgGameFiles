@@ -4,8 +4,8 @@ type: Land
 color: colorless
 pt: false
 text: "CARDNAME enters the battlefield tapped.
-{#SymbolsMain}I{#MPlMain}: Add {#SymbolsMain}B{#MPlMain}.
-Cycling {#SymbolsMain}B{#MPlItalic} ({#SymbolsMain}B{#MPlItalic}, Discard this card: Draw a card.)"
+{T}: Add {U}.
+Cycling {U} [i]({U}, Discard this card: Draw a card.)[/i]"
 image: Lonely Sandbar.png
 setsymbol: onslaught common
 abilities: 
