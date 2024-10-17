@@ -4,7 +4,7 @@ type: Land — Island Mountain
 color: colorless
 pt: false
 text: "CARDNAME enters the battlefield tapped.
-When CARDNAME enters the battlefield, surveil 1.{#MPlItalic}(Look at the top card of your library. You may put it into your graveyard.)"
+When CARDNAME enters the battlefield, surveil 1.[i](Look at the top card of your library. You may put it into your graveyard.)[/i]"
 image: Thundering Falls.png
 setsymbol: murders at karlov manor rare
 abilities: 
