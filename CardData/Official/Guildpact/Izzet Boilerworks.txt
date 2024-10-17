@@ -5,7 +5,7 @@ color: colorless
 pt: false
 text: "CARDNAME enters the battlefield tapped.
 When CARDNAME enters the battlefield, return a land you control to its owner’s hand.
-{#SymbolsMain}I{#MPlMain}: Add {#SymbolsMain}BD{#MPlMain}."
+{T}: Add {U}{R}."
 image: Izzet Boilerworks.png
 setsymbol: guildpact uncommon
 abilities: 
