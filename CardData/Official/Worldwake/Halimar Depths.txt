@@ -5,7 +5,7 @@ color: colorless
 pt: false
 text: "CARDNAME enters the battlefield tapped.
 When CARDNAME enters the battlefield, look at the top three cards of your library, then put them back in any order.
-{#SymbolsMain}I{#MPlMain}: Add {#SymbolsMain}B{#MPlMain}."
+{T}: Add {U}."
 image: Halimar Depths.png
 setsymbol: worldwake common
 abilities: 
