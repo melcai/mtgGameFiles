@@ -4,7 +4,7 @@ type: Land — Island Mountain
 color: colorless
 pt: false
 text: "CARDNAME enters the battlefield tapped.
-Cycling {#SymbolsMain}2{#MPlItalic} ({#SymbolsMain}2{#MPlItalic}, Discard this card: Draw a card.)"
+Cycling {2} [i]({2}, Discard this card: Draw a card.)[/i]"
 image: Tempest Coast.png
 setsymbol: amonkhet rare
 abilities: 
