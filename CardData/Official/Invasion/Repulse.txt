@@ -6,7 +6,7 @@ pt: false
 text: "Return target creature to its owner’s hand.
 Draw a card.
 
-{#MPlItalic}“You aren’t invited.”"
+[i]“You aren’t invited.”[/i]"
 image: Repulse.png
 setsymbol: invasion common
 abilities: 
