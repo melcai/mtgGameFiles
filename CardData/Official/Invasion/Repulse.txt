@@ -4,9 +4,7 @@ type: Instant
 color: blue
 pt: false
 text: "Return target creature to its owner’s hand.
-Draw a card.
-
-[i]“You aren’t invited.”[/i]"
+Draw a card."
 image: Repulse.png
 setsymbol: invasion common
 abilities: 
