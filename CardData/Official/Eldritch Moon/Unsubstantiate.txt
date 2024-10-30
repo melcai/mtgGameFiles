@@ -3,10 +3,7 @@ cost: ¢¼
 type: Instant
 color: blue
 pt: false
-text: "Return target spell or creature to its owner’s hand.
-
-[i]“Nicely done, Jace. You always were good at disappearing acts.”
-—Liliana Vess[/i]"
+text: "Return target spell or creature to its owner’s hand."
 image: Unsubstantiate.png
 setsymbol: eldritch moon uncommon
 abilities: 
